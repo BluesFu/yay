@@ -133,7 +133,7 @@ func (c *Configuration) String() string {
 
 func DefaultConfig() *Configuration {
 	return &Configuration{
-		AURURL:             "https://aur.archlinux.org",
+		AURURL:             "https://aur.tuna.tsinghua.edu.cn",
 		BuildDir:           os.ExpandEnv("$HOME/.cache/yay"),
 		ABSDir:             os.ExpandEnv("$HOME/.cache/yay/abs"),
 		CleanAfter:         false,
